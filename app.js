@@ -114,7 +114,7 @@ function App() {
   function handlePass() {
     if (passes > 0) {
       setPasses(passes - 1);
-      setMessage('⏭ Word passed.');
+      setMessage(' 💨Word passed.');
       moveToNextWord();
     } else {
       setMessage('No passes left!');
@@ -173,12 +173,11 @@ function App() {
               autoFocus
             />
           </form>
-
-          <button onClick={handlePass}>Pass ({passes} left)</button>
-
           <p>{message}</p>
-          <p>Points: {points}</p>
-          <p>Strikes: {strikes} / 3</p>
+          <p>Points: 💎  {points}</p>
+          <p>Strikes:💀 {strikes} / 3 </p>
+         
+          <button onClick={handlePass}>Pass⚡ ({passes} left)</button>
         </div>
       )}
     </div>
