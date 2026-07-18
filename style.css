@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #cffff8;
+}
+
+.game {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: rgb(245, 251, 255);
+  border-radius: 8px;
+  box-shadow: 0 0 10px #000000;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 80%;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+}
